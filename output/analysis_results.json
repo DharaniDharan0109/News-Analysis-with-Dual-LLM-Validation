@@ -1,6 +1,21 @@
 [
   {
     "article": {
+      "title": "Indian Army develops third 120-feet-long Bailey bridge in Sri Lanka",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/indian-army-develops-third-120-feet-long-bailey-bridge-in-sri-lanka/articleshow/126606081.cms",
+      "publishedAt": "2026-01-17T07:06:27Z",
+      "description": "This achievement follows the earlier successful launch of two Bailey bridges in the Jaffna and Kandy regions. Collectively, these engineering efforts have restored road connectivity, improved access to essential services, and provided much-needed relief to co…",
+      "content": "Colombo: The Indian Army's Engineer Task Force has successfully constructed the third Bailey Bridge, measuring 120 feet, at KM 15 on the B-492 Highway in Sri Lanka.The bridge, located in the Central … [+3891 chars]"
+    },
+    "llm1": {
+      "gist": "The Indian Army has built a third 120-foot Bailey bridge in Sri Lanka, continuing their efforts to restore road connectivity and provide relief.",
+      "sentiment": "positive",
+      "tone": "informative"
+    }
+  },
+  {
+    "article": {
       "title": "Manipur counter-insurgency operation: Army targets UKNA in Churachandpur & Kangpokpi",
       "source": "The Times of India",
       "url": "https://economictimes.indiatimes.com/news/defence/manipur-counter-insurgency-operation-army-targets-ukna-in-churachandpur-kangpokpi/articleshow/126603422.cms",
@@ -9,7 +24,7 @@
       "content": "Guwahati: Special forces of Army along with Assam Rifles and other security forces launched counter insurgency operation in Manipurs Churachandpur, defence sources told ET. An operation is also under… [+1772 chars]"
     },
     "llm1": {
-      "gist": "Indian security forces are conducting counter-insurgency operations in Manipur's Churachandpur and Kangpokpi districts targeting the UKNA, an armed group not participating in peace talks.",
+      "gist": "Indian security forces are conducting counter-insurgency operations in Manipur targeting the United Kuki National Army, an armed group not participating in peace talks.",
       "sentiment": "neutral",
       "tone": "informative"
     }
@@ -24,7 +39,7 @@
       "content": "India needs a sweeping overhaul of its import tariff structure and customs administration to cut trade costs, strengthen manufacturing competitiveness and revive export growth, suggests trade-focused… [+3210 chars]"
     },
     "llm1": {
-      "gist": "A study by GTRI recommends restructuring India's import tariffs and customs processes to reduce trade costs, enhance manufacturing competitiveness, and stimulate export growth.",
+      "gist": "A study by GTRI recommends restructuring India's import tariffs and customs procedures to reduce trade costs and boost manufacturing and exports.",
       "sentiment": "neutral",
       "tone": "analytical"
     }
@@ -39,7 +54,7 @@
       "content": "India is set to anchor South Asia as the worlds brightest growth region, even as a majority of global economists brace for weaker economic conditions in 2026, according to the World Economic Forums l… [+10309 chars]"
     },
     "llm1": {
-      "gist": "India is preparing for a major presence at Davos 2026, emphasizing its economic growth and regional development despite global economic concerns.",
+      "gist": "India is preparing for a major presence at Davos 2026, emphasizing its economic growth and regional development, despite global economic concerns.",
       "sentiment": "positive",
       "tone": "optimistic"
     }
@@ -84,7 +99,7 @@
       "content": "The Indian Jute Mills Association (IJMA) has urged the Centre to urgently intervene to control spiralling raw jute prices and ensure availability of the fibre, proposing a complete ban on raw jute tr… [+1986 chars]"
     },
     "llm1": {
-      "gist": "The Indian Jute Mills Association is requesting the government to ban private raw jute trading to address a shortage and price surge.",
+      "gist": "The Indian Jute Mills Association (IJMA) is requesting the government to ban private raw jute trading to address a shortage and price surge.",
       "sentiment": "negative",
       "tone": "urgent"
     }
@@ -99,7 +114,7 @@
       "content": "The Jharkhand government will present an energy transition model at the global platforms during the upcoming visit of a state delegation led by Chief Minister Hemant Soren to Davos in Switzerland and… [+3993 chars]"
     },
     "llm1": {
-      "gist": "The Jharkhand government will showcase its energy transition strategy, focused on responsible diversification and investments in solar and clean technologies, at events in Davos and the UK.",
+      "gist": "The Jharkhand government will showcase its energy transition strategy, focused on diversifying energy sources and investing in solar power and clean technologies, at events in Davos and the UK.",
       "sentiment": "positive",
       "tone": "informative"
     }
@@ -114,7 +129,7 @@
       "content": "Kolkata: The Indian Jute Mills Association (IJMA) has urged the Centre to urgently intervene to control spiralling raw jute prices and ensure availability of the fibre, proposing a complete ban on ra… [+1959 chars]"
     },
     "llm1": {
-      "gist": "The Indian Jute Mills Association wants the government to ban private raw jute trading to stabilize prices and secure fiber supply for mills.",
+      "gist": "The Indian Jute Mills Association wants the government to ban private raw jute trading to stabilize prices and ensure enough jute for mills.",
       "sentiment": "negative",
       "tone": "urgent"
     }
@@ -129,7 +144,7 @@
       "content": "It was quite a present when I think about it, says Peters.\r\nAnother favourite last year was not from a political counterpart, but from the grandson of Sir Edmund Hillary, Alexander Hillary, when Pete… [+5443 chars]"
     },
     "llm1": {
-      "gist": "Winston Peters received numerous gifts from foreign dignitaries during his political career, including a horse from Mongolia and a signed note from Hillary Clinton.",
+      "gist": "Winston Peters received various gifts from international figures, including a horse from Mongolia and a note signed by Hillary Clinton.",
       "sentiment": "neutral",
       "tone": "informative"
     }
@@ -144,7 +159,7 @@
       "content": "New Delhi: India needs a sweeping overhaul of its import tariff structure and customs administration to cut trade costs, strengthen manufacturing competitiveness and revive export growth, suggests tr… [+3195 chars]"
     },
     "llm1": {
-      "gist": "GTRI recommends India revamp its import tariffs and customs procedures to stimulate manufacturing and exports.",
+      "gist": "GTRI recommends India revamp its import tariffs and customs system to enhance manufacturing and exports.",
       "sentiment": "positive",
       "tone": "analytical"
     }
@@ -161,22 +176,7 @@
     "llm1": {
       "gist": "Pastor John and his wife have dedicated a decade to uplifting a slum community in Vijayawada City through spiritual guidance and support.",
       "sentiment": "positive",
-      "tone": "informative"
-    }
-  },
-  {
-    "article": {
-      "title": "Writing the History of Neoliberalism: A Comment | Transactions of the Royal Historical Society | Cambridge Core",
-      "source": "Cambridge.org",
-      "url": "https://www.cambridge.org/core/journals/transactions-of-the-royal-historical-society/article/writing-the-history-of-neoliberalism-a-comment/98E0DE6C54BCB82AB7C070496A2C84A6",
-      "publishedAt": "2026-01-17T05:47:02Z",
-      "description": "Writing the History of Neoliberalism: A Comment",
-      "content": "The term neoliberalism has gained currency these last fifteen years in politics, media commentary, activist circles and much academic discourse but has remained largely unprobed by historians until q… [+46364 chars]"
-    },
-    "llm1": {
-      "gist": "This article critiques the lack of historical analysis surrounding the term 'neoliberalism' despite its widespread use in various fields.",
-      "sentiment": "neutral",
-      "tone": "analytical"
+      "tone": "optimistic"
     }
   }
 ]

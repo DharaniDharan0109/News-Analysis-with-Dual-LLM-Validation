@@ -11,7 +11,7 @@ class LLMAnalyzerError(Exception):
 class OpenRouterAnalyzer:
     def __init__(self, api_key: str | None = None, model: str | None = None):
         self.api_key = settings.OPENROUTER_API_KEY if api_key is None else api_key
-        self.model = model or "google/gemma-2-9b-it"  # ✅ good summarization model
+        self.model = model or "google/gemma-2-9b-it" 
 
     def analyze(self, article: Dict[str, Any]) -> Dict[str, Any]:
         if not self.api_key:

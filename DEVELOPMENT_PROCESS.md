@@ -13,7 +13,7 @@ Build a production-style news analysis pipeline that:
 3. validates the analysis using a second LLM (dual validation) to reduce hallucinations
 4. saves results as JSON + a human-readable Markdown report.
 
-This matches Celltron’s expectation of “Engineer + AI as a disciplined team”: break down the problem, implement robust code, handle errors, include tests, and document decisions.
+This matches Celltron’s expectation of “Engineer + AI as a disciplined team”: break down the problem, implement robust code, handle errors, include tests, and document decisions. 
 
 ---
 
@@ -24,19 +24,24 @@ Following Celltron’s recommended workflow, I split the assignment into small t
 1. **Fetch news** from NewsAPI with filters for India politics/government
 
    * Output: list of article dicts (JSON)
+
 2. **Normalize + structure** articles into consistent schema
 
    * Output: cleaned articles with `{title, source, url, publishedAt, description, content}`
-3. **LLM#1 Analysis**
+
+3. **LLM#1 Analysis (Sentiment + Tone + Gist)**
 
    * Output: `{gist, sentiment, tone}`
+
 4. **LLM#2 Validation**
 
    * Verify LLM#1 output aligns with article content
    * Output: `{valid, issues[], corrected{gist,sentiment,tone}}`
+
 5. **Generate report**
 
    * Output: `final_results.json` + `final_report.md`
+
 6. **Add tests**
 
    * Minimum 3 unit tests (keys missing, module logic correctness)
@@ -56,20 +61,22 @@ Following Celltron’s recommended workflow, I split the assignment into small t
 
 ## Key Design Decisions
 
-### Decision 1: Use OpenRouter as LLM#1 (Sentiment, Tone, Gist)
+### Decision 1: Use OpenRouter `google/gemma-2-9b-it` as LLM#1 (Sentiment, Tone, Gist)
 
-Initially I implemented **Gemini** as LLM#1. During execution I faced:
+Initially I implemented Gemini as LLM#1, but during execution I faced:
 
 1. **404 model errors** (model not found / unsupported for generateContent)
-2. **429 quota exhausted** (rate/usage limit reached; free tier quota reported as 0)
+2. **429 quota exhausted** (free tier quota reported as 0 / rate limits)
 
-This caused all articles to fallback into neutral sentiment outputs (due to controlled error handling).
+This caused articles to fallback into neutral sentiment outputs due to controlled error handling.
 
-✅ To ensure the pipeline produces meaningful analysis consistently, I switched LLM#1 to OpenRouter.
+✅ To ensure the pipeline produces meaningful analysis consistently, I moved LLM#1 sentiment analysis to OpenRouter using:
 
-This decision improves reliability and aligns with Celltron’s development mindset:
+**LLM#1 (Analyzer Model):** `google/gemma-2-9b-it`
 
-* do not get blocked by an external API issue
+This decision improves reliability and aligns with Celltron’s engineering mindset:
+
+* do not get blocked by unstable API quota/model issues
 * ship a working system with correct outputs
 * document the trade-off transparently
 
@@ -77,17 +84,16 @@ This decision improves reliability and aligns with Celltron’s development mind
 
 ### Decision 2: Dual LLM Validation Still Preserved
 
-Even after switching LLM#1 to OpenRouter, I preserved “dual LLM validation” by using two distinct LLM configurations:
+Even after switching LLM#1 to OpenRouter, I preserved “dual LLM validation” by using two distinct models:
 
-* **LLM#1 (Analyzer):** OpenRouter model A (fast summarization + sentiment)
-* **LLM#2 (Validator):** OpenRouter model B (strict checking / corrections)
+* **LLM#1 (Analyzer):** OpenRouter `google/gemma-2-9b-it`
 
-This maintains the assignment requirement of using a second LLM for validation, and reduces single-model bias.
+  * fast summarization + sentiment classification
+* **LLM#2 (Validator):** OpenRouter `mistralai/mistral-7b-instruct`
 
-Example model approach:
+  * strict checking + correction suggestions
 
-* LLM#1: `google/gemma-2-9b-it` (analyzer)
-* LLM#2: `mistralai/mistral-7b-instruct` (validator)
+This maintains the assignment requirement of using a second LLM for validation and reduces single-model bias.
 
 ---
 
@@ -154,7 +160,8 @@ The initial constructor logic used:
 self.api_key = api_key or settings.KEY
 ```
 
-This incorrectly falls back to settings even when `api_key=""` is passed intentionally in tests.
+This incorrectly fell back to `.env` settings even when `api_key=""` was passed intentionally in tests.
+
 Fix:
 
 * `None` means “fallback”
@@ -164,23 +171,26 @@ This improved test reliability and correctness.
 
 ---
 
-### Issue 3: Gemini 404 + quota 429
+### Issue 3: Gemini model instability (404) and quota issues (429)
 
-Gemini integration failed due to model availability/quota constraints.
+Gemini integration failed due to:
+
+* model availability constraints (404)
+* quota/rate limits (429)
+
 Fix:
 
-* switched primary analyzer to OpenRouter
-* retained validator as a separate model
-* optional: kept Gemini analyzer class as fallback/feature
+* switched primary analyzer to OpenRouter model `google/gemma-2-9b-it`
+* retained validator as a separate OpenRouter model (`mistralai/mistral-7b-instruct`)
 
-This ensured the pipeline always produces meaningful results.
+This ensured the pipeline produces meaningful results consistently.
 
 ---
 
 ## Error Handling (Production mindset)
 
 * NewsAPI network failures and invalid responses → raised as clear exceptions
-* LLM API failures (429/timeout/invalid JSON) → handled gracefully and logged as issues
+* LLM API failures (timeout/invalid JSON/rate limits) → handled gracefully and logged as issues
 * Pipeline continues execution even if some articles fail analysis
 * Validator step ensures traceability of errors and corrected output.
 
@@ -191,8 +201,8 @@ This ensured the pipeline always produces meaningful results.
 Included at least 3 unit tests:
 
 1. Fetcher should fail when no NewsAPI key
-2. Analyzer should fail when no LLM key
-3. Validator should fail when no LLM key
+2. Analyzer should fail when no OpenRouter API key
+3. Validator should fail when no OpenRouter API key
 
 Tests ensure module-level correctness and prevent silent failure.
 
@@ -201,11 +211,13 @@ Tests ensure module-level correctness and prevent silent failure.
 ## What I Learned / What I'd Improve Next
 
 * LLM APIs can change rapidly (model names, quotas, supported endpoints).
+
 * Robust pipelines need:
 
   * throttling
   * retries
   * fallbacks between providers
+
 * In future iterations:
 
   * add response caching
