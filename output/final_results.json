@@ -1,0 +1,350 @@
+[
+  {
+    "article": {
+      "title": "Manipur counter-insurgency operation: Army targets UKNA in Churachandpur & Kangpokpi",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/manipur-counter-insurgency-operation-army-targets-ukna-in-churachandpur-kangpokpi/articleshow/126603422.cms",
+      "publishedAt": "2026-01-17T06:50:59Z",
+      "description": "Security forces are conducting major operations in Manipur's Churachandpur and Kangpokpi. The focus is on the United Kuki National Army, an armed group operating outside peace talks. This group is reportedly involved in recent attacks. The operations began ea…",
+      "content": "Guwahati: Special forces of Army along with Assam Rifles and other security forces launched counter insurgency operation in Manipurs Churachandpur, defence sources told ET. An operation is also under… [+1772 chars]"
+    },
+    "llm1": {
+      "gist": "Indian security forces are conducting counter-insurgency operations in Manipur's Churachandpur and Kangpokpi districts targeting the UKNA, an armed group not participating in peace talks.",
+      "sentiment": "neutral",
+      "tone": "informative"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "Indian security forces are conducting significant counter-insurgency operations in Manipur's Churachandpur and Kangpokpi districts, focusing on the United Kuki National Army (UKNA), an armed group reportedly involved in recent attacks and not currently participating in peace talks.",
+        "sentiment": "neutral",
+        "tone": "informative"
+      }
+    },
+    "final": {
+      "gist": "Indian security forces are conducting counter-insurgency operations in Manipur's Churachandpur and Kangpokpi districts targeting the UKNA, an armed group not participating in peace talks.",
+      "sentiment": "neutral",
+      "tone": "informative"
+    }
+  },
+  {
+    "article": {
+      "title": "GTRI calls for overhaul of tariff structure, customs to boost India's trade",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/economy/gtri-calls-for-overhaul-of-tariff-structure-customs-to-boost-indias-trade/article70517810.ece",
+      "publishedAt": "2026-01-17T06:42:06Z",
+      "description": "Study comes as India’s merchandise trade crosses $1.16 trillion and nearly 29% of gross domestic product flows through customs clearances",
+      "content": "India needs a sweeping overhaul of its import tariff structure and customs administration to cut trade costs, strengthen manufacturing competitiveness and revive export growth, suggests trade-focused… [+3210 chars]"
+    },
+    "llm1": {
+      "gist": "A study by GTRI recommends restructuring India's import tariffs and customs processes to reduce trade costs, enhance manufacturing competitiveness, and stimulate export growth.",
+      "sentiment": "neutral",
+      "tone": "analytical"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "The study by GTRI proposes a restructuring of India's import tariffs and customs processes to reduce trade costs, improve manufacturing competitiveness, and stimulate export growth.",
+        "sentiment": "neutral",
+        "tone": "analytical"
+      }
+    },
+    "final": {
+      "gist": "A study by GTRI recommends restructuring India's import tariffs and customs processes to reduce trade costs, enhance manufacturing competitiveness, and stimulate export growth.",
+      "sentiment": "neutral",
+      "tone": "analytical"
+    }
+  },
+  {
+    "article": {
+      "title": "India @ Davos 2026: Notes before landing",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/india/india-davos-2026-notes-before-landing/articleshow/126605279.cms",
+      "publishedAt": "2026-01-17T06:39:46Z",
+      "description": "India prepares for a significant presence at Davos 2026, showcasing its economic strength and growth potential. A record number of Indian states will participate, highlighting diverse regional development. The India Pavilion will serve as a working hub for ke…",
+      "content": "India is set to anchor South Asia as the worlds brightest growth region, even as a majority of global economists brace for weaker economic conditions in 2026, according to the World Economic Forums l… [+10309 chars]"
+    },
+    "llm1": {
+      "gist": "India is preparing for a major presence at Davos 2026, emphasizing its economic growth and regional development despite global economic concerns.",
+      "sentiment": "positive",
+      "tone": "optimistic"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "India is preparing for a significant presence at Davos 2026, emphasizing its economic strength and growth potential, as well as regional development, despite global economic concerns.",
+        "sentiment": "positive",
+        "tone": "optimistic"
+      }
+    },
+    "final": {
+      "gist": "India is preparing for a major presence at Davos 2026, emphasizing its economic growth and regional development despite global economic concerns.",
+      "sentiment": "positive",
+      "tone": "optimistic"
+    }
+  },
+  {
+    "article": {
+      "title": "This Budget could be the spark behind India’s AI power shift",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/budget-2026-india-ai-mission-allocation-nirmala-sitharaman/articleshow/126604175.cms",
+      "publishedAt": "2026-01-17T06:30:40Z",
+      "description": "India's Union Budget 2026 arrives as the nation focuses on AI execution. Industry leaders seek structural reforms for power, approvals, and policy certainty. Clear governance, risk frameworks, and scalable compute access are crucial. The budget must foster do…",
+      "content": "Union Budget 2026 arrives at a moment when Indias artificial intelligence ambitions are well-funded and well-articulated, but increasingly constrained by execution and policy clarity.Over the last tw… [+8378 chars]"
+    },
+    "llm1": {
+      "gist": "India's 2026 budget is crucial for the nation's AI ambitions, with industry leaders calling for reforms to facilitate execution and policy clarity.",
+      "sentiment": "neutral",
+      "tone": "analytical"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "India's 2026 budget is essential for the nation's AI ambitions, as industry leaders seek structural reforms to facilitate execution, policy clarity, and address concerns related to power, approvals, and policy certainty.",
+        "sentiment": "neutral",
+        "tone": "analytical"
+      }
+    },
+    "final": {
+      "gist": "India's 2026 budget is crucial for the nation's AI ambitions, with industry leaders calling for reforms to facilitate execution and policy clarity.",
+      "sentiment": "neutral",
+      "tone": "analytical"
+    }
+  },
+  {
+    "article": {
+      "title": "Spacetech startup EtherealX raises $20 million in round co-led by TDK Ventures, BIG Capital",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/funding/spacetech-startup-etherealx-raises-20-million-in-round-co-led-by-tdk-ventures-big-capital/articleshow/126605041.cms",
+      "publishedAt": "2026-01-17T06:24:21Z",
+      "description": "Accel, Prosus, YourNest Venture Capital, BlueHill Capital, Campus Fund, and Riceberg Ventures also participated in the funding round. The maker of reusable rockets plans to fly its 35-metre-tall technology demonstrator vehicle (TDV), consisting of an eight-en…",
+      "content": "Spacetech startup Ethereal Exploration Guild (EtherealX), a maker of reusable rockets, has secured $20.5 million in a round co-led by TDK Ventures and BIG Capital. The round also saw participation fr… [+2939 chars]"
+    },
+    "llm1": {
+      "gist": "Spacetech startup EtherealX raised $20.5 million in funding to develop reusable rockets.",
+      "sentiment": "positive",
+      "tone": "informative"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "Spacetech startup EtherealX, a reusable rocket manufacturer, successfully raised $20.5 million in a funding round co-led by TDK Ventures and BIG Capital, with additional participation from Accel, Prosus, YourNest Venture Capital, BlueHill Capital, Campus Fund, and Riceberg Ventures.",
+        "sentiment": "positive",
+        "tone": "informative"
+      }
+    },
+    "final": {
+      "gist": "Spacetech startup EtherealX raised $20.5 million in funding to develop reusable rockets.",
+      "sentiment": "positive",
+      "tone": "informative"
+    }
+  },
+  {
+    "article": {
+      "title": "IJMA seeks ban on private raw jute trading from April 1",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/ijma-seeks-ban-on-private-raw-jute-trading-from-april-1/article70517753.ece",
+      "publishedAt": "2026-01-17T06:15:17Z",
+      "description": "Indian Jute Mills Association says raw jute availability with mills has decreased sharply, and prices have surged",
+      "content": "The Indian Jute Mills Association (IJMA) has urged the Centre to urgently intervene to control spiralling raw jute prices and ensure availability of the fibre, proposing a complete ban on raw jute tr… [+1986 chars]"
+    },
+    "llm1": {
+      "gist": "The Indian Jute Mills Association is requesting the government to ban private raw jute trading to address a shortage and price surge.",
+      "sentiment": "negative",
+      "tone": "urgent"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "The Indian Jute Mills Association is requesting the government to intervene to control raw jute price surge and ensure availability due to a sharp decrease in raw jute availability with mills.",
+        "sentiment": "negative",
+        "tone": "urgent"
+      }
+    },
+    "final": {
+      "gist": "The Indian Jute Mills Association is requesting the government to ban private raw jute trading to address a shortage and price surge.",
+      "sentiment": "negative",
+      "tone": "urgent"
+    }
+  },
+  {
+    "article": {
+      "title": "Jharkhand government to present energy transition model at events in Davos, UK",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/national/jharkhand-government-to-present-energy-transition-model-at-events-in-davos-uk/article70517746.ece",
+      "publishedAt": "2026-01-17T06:09:19Z",
+      "description": "The state’s energy transition strategy is rooted in responsible diversification, leveraging its existing energy infrastructure while accelerating investments in solar power and emerging clean technologies",
+      "content": "The Jharkhand government will present an energy transition model at the global platforms during the upcoming visit of a state delegation led by Chief Minister Hemant Soren to Davos in Switzerland and… [+3993 chars]"
+    },
+    "llm1": {
+      "gist": "The Jharkhand government will showcase its energy transition strategy, focused on responsible diversification and investments in solar and clean technologies, at events in Davos and the UK.",
+      "sentiment": "positive",
+      "tone": "informative"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "The Jharkhand government will present its energy transition strategy, emphasizing responsible diversification and investments in solar power and emerging clean technologies, at events in Davos, Switzerland and the UK.",
+        "sentiment": "positive",
+        "tone": "informative"
+      }
+    },
+    "final": {
+      "gist": "The Jharkhand government will showcase its energy transition strategy, focused on responsible diversification and investments in solar and clean technologies, at events in Davos and the UK.",
+      "sentiment": "positive",
+      "tone": "informative"
+    }
+  },
+  {
+    "article": {
+      "title": "Indian Jute Mills Association seeks ban on private raw jute trading",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indian-jute-mills-association-seeks-ban-on-private-raw-jute-trading/articleshow/126604436.cms",
+      "publishedAt": "2026-01-17T06:04:43Z",
+      "description": "The Indian Jute Mills Association has asked the government to stop private raw jute trading after March 31. This move aims to control rising prices and ensure fibre availability for mills. The association claims many mills have shut down, leaving thousands jo…",
+      "content": "Kolkata: The Indian Jute Mills Association (IJMA) has urged the Centre to urgently intervene to control spiralling raw jute prices and ensure availability of the fibre, proposing a complete ban on ra… [+1959 chars]"
+    },
+    "llm1": {
+      "gist": "The Indian Jute Mills Association wants the government to ban private raw jute trading to stabilize prices and secure fiber supply for mills.",
+      "sentiment": "negative",
+      "tone": "urgent"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "The Indian Jute Mills Association has requested the government to halt private raw jute trading after March 31 to control rising prices and secure fiber supply for mills.",
+        "sentiment": "neutral",
+        "tone": "urgent"
+      }
+    },
+    "final": {
+      "gist": "The Indian Jute Mills Association wants the government to ban private raw jute trading to stabilize prices and secure fiber supply for mills.",
+      "sentiment": "negative",
+      "tone": "urgent"
+    }
+  },
+  {
+    "article": {
+      "title": "Winston Peters’ global gifts: From Mongolian horse to Hillary-signed note",
+      "source": "New Zealand Herald",
+      "url": "https://www.nzherald.co.nz/nz/politics/winston-peters-global-gifts-from-mongolian-horse-to-hillary-signed-note/premium/QFS3F7FS45D5BFSZZLUSHHCRNU/",
+      "publishedAt": "2026-01-17T06:00:00Z",
+      "description": "His viral cowboy-themed campaign ad sparked a wave of horse gifts abroad.",
+      "content": "It was quite a present when I think about it, says Peters.\r\nAnother favourite last year was not from a political counterpart, but from the grandson of Sir Edmund Hillary, Alexander Hillary, when Pete… [+5443 chars]"
+    },
+    "llm1": {
+      "gist": "Winston Peters received numerous gifts from foreign dignitaries during his political career, including a horse from Mongolia and a signed note from Hillary Clinton.",
+      "sentiment": "neutral",
+      "tone": "informative"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "Winston Peters has received various gifts during his political career, notably a horse from Mongolia and a signed note from Hillary Clinton's grandson, not Hillary Clinton herself.",
+        "sentiment": "neutral",
+        "tone": "informative"
+      }
+    },
+    "final": {
+      "gist": "Winston Peters received numerous gifts from foreign dignitaries during his political career, including a horse from Mongolia and a signed note from Hillary Clinton.",
+      "sentiment": "neutral",
+      "tone": "informative"
+    }
+  },
+  {
+    "article": {
+      "title": "GTRI calls for overhaul of tariff structure, customs to boost India's trade",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/gtri-calls-for-overhaul-of-tariff-structure-customs-to-boost-indias-trade/articleshow/126604357.cms",
+      "publishedAt": "2026-01-17T05:57:25Z",
+      "description": "A new report by GTRI urges India to overhaul its import tariffs and customs administration to boost manufacturing and exports.  The think-tank suggests simplifying duties, eliminating complex notifications, and creating a growth-focused customs system.  These…",
+      "content": "New Delhi: India needs a sweeping overhaul of its import tariff structure and customs administration to cut trade costs, strengthen manufacturing competitiveness and revive export growth, suggests tr… [+3195 chars]"
+    },
+    "llm1": {
+      "gist": "GTRI recommends India revamp its import tariffs and customs procedures to stimulate manufacturing and exports.",
+      "sentiment": "positive",
+      "tone": "analytical"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "GTRI proposes simplifying import duties, eliminating complex notifications, and creating a growth-focused customs system to reduce trade costs, enhance manufacturing competitiveness, and stimulate export growth in India.",
+        "sentiment": "positive",
+        "tone": "analytical"
+      }
+    },
+    "final": {
+      "gist": "GTRI recommends India revamp its import tariffs and customs procedures to stimulate manufacturing and exports.",
+      "sentiment": "positive",
+      "tone": "analytical"
+    }
+  },
+  {
+    "article": {
+      "title": "India: one couple’s mission to transform a slum community",
+      "source": "Christiantoday.com",
+      "url": "https://www.christiantoday.com/news/india-one-couples-mission-to-transform-a-slum-community",
+      "publishedAt": "2026-01-17T05:51:00Z",
+      "description": "Pastor John and his wife have spent the last decade working to break the cycle of spiritual and emotional poverty in a Vijayawada slum.",
+      "content": "Pastor John preaching to a group of children.\r\nPastor John Isaac and his wife have been working in the slum community of Vijayawada City for the last 10 years, sharing the Word with children and youn… [+5871 chars]"
+    },
+    "llm1": {
+      "gist": "Pastor John and his wife have dedicated a decade to uplifting a slum community in Vijayawada City through spiritual guidance and support.",
+      "sentiment": "positive",
+      "tone": "informative"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "Pastor John and his wife have dedicated a decade to improving the spiritual and emotional well-being of a slum community in Vijayawada City.",
+        "sentiment": "positive",
+        "tone": "informative"
+      }
+    },
+    "final": {
+      "gist": "Pastor John and his wife have dedicated a decade to uplifting a slum community in Vijayawada City through spiritual guidance and support.",
+      "sentiment": "positive",
+      "tone": "informative"
+    }
+  },
+  {
+    "article": {
+      "title": "Writing the History of Neoliberalism: A Comment | Transactions of the Royal Historical Society | Cambridge Core",
+      "source": "Cambridge.org",
+      "url": "https://www.cambridge.org/core/journals/transactions-of-the-royal-historical-society/article/writing-the-history-of-neoliberalism-a-comment/98E0DE6C54BCB82AB7C070496A2C84A6",
+      "publishedAt": "2026-01-17T05:47:02Z",
+      "description": "Writing the History of Neoliberalism: A Comment",
+      "content": "The term neoliberalism has gained currency these last fifteen years in politics, media commentary, activist circles and much academic discourse but has remained largely unprobed by historians until q… [+46364 chars]"
+    },
+    "llm1": {
+      "gist": "This article critiques the lack of historical analysis surrounding the term 'neoliberalism' despite its widespread use in various fields.",
+      "sentiment": "neutral",
+      "tone": "analytical"
+    },
+    "llm2_validation": {
+      "valid": true,
+      "issues": [],
+      "corrected": {
+        "gist": "This article discusses the historical analysis of the term 'neoliberalism', noting its widespread use in various fields but lack of exploration by historians.",
+        "sentiment": "informative",
+        "tone": "analytical"
+      }
+    },
+    "final": {
+      "gist": "This article critiques the lack of historical analysis surrounding the term 'neoliberalism' despite its widespread use in various fields.",
+      "sentiment": "neutral",
+      "tone": "analytical"
+    }
+  }
+]
